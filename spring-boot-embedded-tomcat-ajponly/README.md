@@ -2,7 +2,7 @@
 
 Spring Boot's embedded tomcat starts with http port by default. You can initialize an additional ajp connector or override the default http connector explained here.
 
-Useful links that helps me to solve this problem:
+Useful links that helps me to create this project:
 
 * https://github.com/spring-projects/spring-boot/issues/3359
 * https://blog.swdev.ed.ac.uk/2015/06/24/adding-embedded-tomcat-ajp-support-to-a-spring-boot-application/
