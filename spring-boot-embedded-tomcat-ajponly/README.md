@@ -1,6 +1,6 @@
 # Spring Boot Embedded Tomcat With Ajp Only Connector
 
-Spring Boot's embedded tomcat starts with http port by default. You can initialize an additional ajp connector or override the default http connector explained here.
+Spring Boot's embedded tomcat starts with http port by default. You can initialize an additional ajp connector or override the default http connector using the configs here.
 
 Useful links that helps me to create this project:
 
