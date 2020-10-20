@@ -2,6 +2,14 @@
 
 Spring Boot's embedded tomcat starts with http port by default. You can initialize an additional ajp connector or override the default http connector using the configs here.
 
+## Ghostcat vulnerability
+
+Be careful when setting ajp set secret required to false: https://nvd.nist.gov/vuln/detail/CVE-2020-1938
+
+    ajpProtocol.setSecretRequired(false);
+
+## Resources
+
 Useful links that helps me to create this project:
 
 * https://github.com/spring-projects/spring-boot/issues/3359
